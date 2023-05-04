@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #0080ff;
+  --color-secondary: #212529;
+  --color-gray: #adb5bd;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+  --color-danger: #dc3545;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-secondary);
+  background-color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn:not(:disabled) {
+  cursor: pointer;
+}
