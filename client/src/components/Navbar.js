@@ -15,7 +15,7 @@ function Navbar() {
           <Link to="/top">Top Consultas</Link>
         </li>
         <li>
-          <Link to="/trending">Tópicos em Alta</li>
+          <Link to="/trending">Tópicos em Alta</Link>
         </li>
         <li>
           <Link to="/subscribe">Assinatura</Link>
